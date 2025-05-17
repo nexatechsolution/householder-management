@@ -1,0 +1,75 @@
+#root {
+width: 100% !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap');
+
+body {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+ 
+  width: 100% !important;
+}
+
+.app-container {
+  max-width: 480px;
+  margin: 20px auto;
+  padding: 24px 20px;
+  background: #fff;
+  border-radius: 12px;
+  /* box-shadow: 0 4px 20px rgba(0,0,0,0.1); */
+}
+
+.ant-table {
+  font-size: 14px;
+}
+
+.ant-table-thead > tr > th {
+  background: #f0f4f8;
+  font-weight: 600;
+  color: #2C7BE5;
+  border-bottom: 2px solid #d6e4f0;
+}
+
+.ant-btn-primary {
+  background-color: #2C7BE5;
+  border-color: #2C7BE5;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.ant-btn-primary:hover {
+  background-color: #5596f6;
+  border-color: #5596f6;
+}
+
+.ant-collapse-header {
+  font-weight: 600;
+  font-size: 15px;
+  color: #0a3d62;
+}
+
+.ant-modal-content {
+  border-radius: 12px;
+}
+
+.ant-form-item-label > label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.ant-input,
+.ant-picker,
+.ant-select-selector {
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.card-person {
+  margin-bottom: 8px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+  background-color: #f9fcff;
+  border: 1px solid #d0ebff;
+}
